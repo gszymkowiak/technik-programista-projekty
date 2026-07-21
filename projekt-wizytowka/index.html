@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jan Kowalski – Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
+      <div class="container">
+        <a class="navbar-brand" href="#hero">WEB KODER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-light" href="#about">O MNIE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-light" href="#skills">UMIEJĘTNOŚCI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-light" href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-light" href="#contact">KONTAKT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header
+      id="hero"
+      class="text-light d-flex align-items-center text-center position-relative"
+      style="min-height: 80vh; overflow: hidden"
+    >
+      <!-- Tło jako element absolutnie pozycjonowany -->
+      <img
+        src="./developer.jpg"
+        alt="Tło"
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="object-fit: cover; filter: brightness(0.5); z-index: 0"
+      />
+
+      <div class="container position-relative" style="z-index: 1">
+        <h1 class="display-4 fw-light">Jan Kowalski</h1>
+        <p class="lead mb-4">Web Developer</p>
+        <a href="#contact" class="btn btn-primary btn-lg ps-5 pe-5 fw-lighter"
+          >Kontakt</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <!-- O MNIE -->
+      <section
+        id="about"
+        class="py-5 row d-flex align-items-center justify-content-center m-0"
+      >
+        <figure class="col-md-4 mb-4 mb-md-0 text-center p-3">
+          <img
+            src="./coder.jpg"
+            alt="Zdjęcie profilowe"
+            class="img-fluid rounded-circle w-50"
+          />
+        </figure>
+
+        <article class="col-md-5">
+          <h2 class="ps-5">O MNIE</h2>
+          <p class="mt-3 ps-5">
+            Jestem web developerem specjalizującym się w tworzeniu nowoczesnych,
+            responsywnych stron internetowych. Lubię łączyć prosty, czytelny
+            design z poprawnym kodem i dobrymi praktykami.
+          </p>
+          <p class="mt-3 ps-5">
+            Pracuję głównie z technologiami HTML, CSS, JavaScript oraz
+            Bootstrap, a także frameworkami frontendowymi, takimi jak React.
+          </p>
+        </article>
+      </section>
+
+      <!-- UMIEJĘTNOŚCI -->
+      <section id="skills" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4 fw-light">UMIEJĘTNOŚCI</h2>
+          <div class="row g-4">
+            <article class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Frontend</h5>
+                  <p class="card-text">
+                    HTML5, CSS3, JavaScript, Bootstrap, React, RWD, dostępność.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Backend</h5>
+                  <p class="card-text">
+                    Podstawy Node.js, Express, REST API, praca z JSON oraz
+                    bazami danych (np. MySQL).
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Narzędzia</h5>
+                  <p class="card-text">
+                    Git, GitHub, VS Code, Figma, system kontroli wersji, praca w
+                    zespole (Scrum/Kanban).
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section id="portfolio" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4 fw-light">PORTFOLIO</h2>
+          <div class="row g-4">
+            <article class="col-md-4">
+              <div class="card h-100">
+                <img
+                  src="./project-1.png"
+                  class="card-img-top p-3"
+                  alt="Projekt 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Landing Page</h5>
+                  <p class="card-text">
+                    Jednostronicowa strona produktowa zbudowana w Bootstrapie, w
+                    pełni responsywna.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary btn-sm"
+                    >Zobacz projekt</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="col-md-4">
+              <div class="card h-100">
+                <img
+                  src="./project-2.jpg"
+                  class="card-img-top p-3"
+                  alt="Projekt 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Panel administracyjny</h5>
+                  <p class="card-text">
+                    Prosty dashboard z tabelą, kartami i formularzami do
+                    zarządzania danymi.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary btn-sm"
+                    >Zobacz projekt</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="col-md-4">
+              <div class="card h-100">
+                <img
+                  src="./project-3.png"
+                  class="card-img-top p-3"
+                  alt="Projekt 3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio fotografa</h5>
+                  <p class="card-text">
+                    Galeria zdjęć oparta na gridzie Bootstrapa, z modals dla
+                    podglądu fotografii.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary btn-sm"
+                    >Zobacz projekt</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONTAKT -->
+      <section id="contact" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4">KONTAKT</h2>
+          <form class="mx-auto" style="max-width: 600px">
+            <label for="name" class="form-label">Imię</label>
+            <input
+              type="text"
+              class="form-control mb-3"
+              id="name"
+              placeholder="Podaj swoje imię"
+            />
+
+            <label for="email" class="form-label">Adres e-mail</label>
+            <input
+              type="email"
+              class="form-control mb-3"
+              id="email"
+              placeholder="Podaj swój adres e-mail"
+            />
+
+            <label for="message" class="form-label">Wiadomość</label>
+            <textarea
+              class="form-control mb-3"
+              id="message"
+              rows="4"
+              placeholder="Napisz swoją wiadomość"
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary">Wyślij</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- STOPKA -->
+    <footer class="p-3 bg-dark text-light text-center">
+      <small>© 2025 Jan Kowalski</small>
+    </footer>
+
+    <!-- Bootstrap JS (bundled) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
