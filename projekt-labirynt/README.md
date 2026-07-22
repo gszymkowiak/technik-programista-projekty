@@ -95,7 +95,7 @@ Gra zawiera minimum 3 poziomy:
 
 Każdy poziom zwiększa:
 
-- rozmiar mapy,
+- skomplikowanie mapy,
 - liczbę przeciwników,
 - poziom trudności zagadek.
 
