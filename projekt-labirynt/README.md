@@ -6,8 +6,7 @@ Gra **Labirynt** wykonana w technologii HTML5 z Canvas oraz JavaScript. Gracz st
 
 # Opis gry
 
-Celem gry jest przechodzenie przez kolejne poziomy labiryntu i dotarcie do wyjścia.  
-Podczas rozgrywki gracz:
+Celem gry jest przechodzenie przez kolejne poziomy labiryntu, aby dotrzeć do wyjścia. Podczas rozgrywki gracz:
 
 - eksploruje mapę,
 - zbiera przedmioty,
