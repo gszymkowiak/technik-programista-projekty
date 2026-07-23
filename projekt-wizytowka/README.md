@@ -46,11 +46,12 @@ Strona zawiera:
 ```text
 .
 ├── index.html
-├── developer.jpg
-├── coder.jpg
-├── project-1.png
-├── project-2.jpg
-└── project-3.png
+├── assets
+    ├── developer.jpg
+    ├── coder.jpg
+    ├── project-1.png
+    ├── project-2.jpg
+    └── project-3.png
 ```
 
 ---
