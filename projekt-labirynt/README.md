@@ -1,14 +1,12 @@
 # Labirynt
 
-Nowoczesna przeglądarkowa gra typu **Labirynt**, wykonana w technologii HTML5 Canvas oraz JavaScript.  
-Gracz steruje postacią poruszającą się po planszy, zbiera przedmioty, rozwiązuje zagadki logiczne oraz unika zagrożeń, aby ukończyć kolejne poziomy gry. Projekt realizowany jako projekt zespołowy.
+Gra **Labirynt** wykonana w technologii HTML5 z Canvas oraz JavaScript. Gracz steruje postacią poruszającą się po planszy, zbiera przedmioty, rozwiązuje zagadki logiczne oraz unika zagrożeń, aby ukończyć kolejne poziomy gry. Zadanie realizowane jako projekt zespołowy.
 
 ---
 
 # Opis gry
 
-Celem gry jest przechodzenie przez kolejne poziomy labiryntu i dotarcie do wyjścia.  
-Podczas rozgrywki gracz:
+Celem gry jest przechodzenie przez kolejne poziomy labiryntu, aby dotrzeć do wyjścia. Podczas rozgrywki gracz:
 
 - eksploruje mapę,
 - zbiera przedmioty,
@@ -97,7 +95,7 @@ Gra zawiera minimum 3 poziomy:
 
 Każdy poziom zwiększa:
 
-- rozmiar mapy,
+- skomplikowanie mapy,
 - liczbę przeciwników,
 - poziom trudności zagadek.
 
